@@ -1,0 +1,43 @@
+/*  
+Theme Name: demoTheme
+Description: This is my theme for a tutorial.
+Version: 1.0
+Author: Udit Desai
+
+*/
+
+#header {
+    background-color: #F4921E;
+    margin: -1.6% -0.6% 0.6% -0.6%;
+    padding: 0% 10px 3% 10px;
+}
+
+#wrapper {
+    margin: auto;
+    background-color: #FFFFFF;
+    width: 90%;
+}
+
+#container {
+    background-color: #858585;
+    float: left;
+    width: 80%;
+}
+
+.post {
+    background-color: #C5D2DB;
+}
+
+.post_content {
+    background-color: #3E6B85;
+}
+
+#sidebar {
+    float: right;
+    width: 20%;
+}
+
+footer {
+    background-color: #F4921E;
+    clear: both;
+}

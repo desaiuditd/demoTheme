@@ -34,12 +34,10 @@ get_header(); ?>
 
     <?php endwhile; ?>
 
-    <?php next_posts_link('Older Posts'); ?>
-    <?php previous_posts_link('Newer Posts'); ?>
-
     <?php else : ?>
         <h4>Nothing Found</h4>
     <?php endif; ?>
-</div>
+</div>  <!--container end-->
+</div>  <!--wrapper end-->
 
 <?php get_footer(); ?>

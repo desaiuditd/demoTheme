@@ -7,10 +7,9 @@
  */
 ?>
 
-<hr>
-
 <footer>
-    Hello
+    <hr>
+    Copyright &#169; <?php bloginfo('name'); ?>
 </footer>
 
 <?php wp_footer(); ?>

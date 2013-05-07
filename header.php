@@ -67,3 +67,10 @@
 
 </head>
 <body>
+    
+    <div id="header">
+        <h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
+        <?php bloginfo('description'); ?>
+    </div>
+
+    <div id="wrapper">
