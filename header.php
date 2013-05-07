@@ -55,7 +55,7 @@
         ?>
     </title>
 
-    <?php //wp_enqueue_script('jquery'); ?>
+    <?php wp_enqueue_script('jquery'); ?>
     <?php wp_head(); ?>
 
     <link rel="profile" href="http://gmpg.org/xfn/11" />
@@ -66,3 +66,4 @@
     <![endif]-->
 
 </head>
+<body>
