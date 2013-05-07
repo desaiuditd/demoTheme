@@ -34,23 +34,23 @@
             global $paged;
 
             if (function_exists('is_tag') && is_tag()) {
-                single_tag_title('Tag Archive for &quot;');  echo '&quot; - ';
+                single_tag_title('Tag Archive for &quot;');  echo '&quot;';
             } elseif (is_archive()) {
-                wp_title('');  echo 'Archive - ';
+                wp_title('');  echo ' | Archive';
             } elseif (is_search()) {
-                echo 'Search for &quot;'.wp_specialchars($s).'&quot; - ';
+                echo 'Search for &quot;'.wp_specialchars($s).'&quot;';
             } elseif (!(is_404()) && (is_single()) || (is_page())) {
-                wp_title('');  echo ' - ';
+                wp_title('');
             } elseif (is_404()) {
-                echo 'Not Found - ';
+                echo 'Not Found !';
             } elseif (is_home()) {
                 bloginfo('name');  echo ' - '; bloginfo('description');
             } else {
                 bloginfo('name');
             }
 
-            if ($paged > 1) {	
-                echo ' - page '. $paged;
+            if ($paged > 1) {
+                echo ' - Page '. $paged;
             }
         ?>
     </title>
