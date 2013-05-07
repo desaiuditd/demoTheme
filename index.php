@@ -50,6 +50,9 @@
     <?php else : ?>
         <h4>Nothing Found</h4>
     <?php endif; ?>
+
 </div>
 
+<?php get_sidebar(); ?>
+    
 <?php get_footer(); ?>
