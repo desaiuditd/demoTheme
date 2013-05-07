@@ -7,10 +7,10 @@
  */
 ?>
 
-<footer>
+<div id="footer">
     <hr>
-    Copyright &#169; <?php bloginfo('name'); ?>
-</footer>
+    <span>Copyright &#169; <?php bloginfo('name'); ?></span>
+</div>
 
 <?php wp_footer(); ?>
 

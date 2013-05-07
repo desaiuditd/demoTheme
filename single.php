@@ -8,17 +8,12 @@
 
 get_header(); ?>
 
-<div id="header">
-    <h2><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h2>
-    <?php bloginfo('description'); ?>
-</div>
-
 <div id="container">
 
     <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
         <div class="post">
-            <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 
             <p class="meta">
                 <span>Posted on</span> <?php the_time('F jS,Y'); ?>

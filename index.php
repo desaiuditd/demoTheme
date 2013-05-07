@@ -39,8 +39,11 @@
 
     <?php endwhile; ?>
 
-    <?php next_posts_link('Older Posts'); ?>
-    <?php previous_posts_link('Newer Posts'); ?>
+    <span>
+        <?php next_posts_link('Older Posts'); ?>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <?php previous_posts_link('Newer Posts'); ?>
+    </span>
 
     <?php else : ?>
         <h4>Nothing Found</h4>
