@@ -6,47 +6,46 @@ Author: Udit Desai
 
 */
 
+@import "partials/grid";
+
+$white: #FFFFFF;
+$yellow: #F4921E;
+$grey: #858585;
+$blue: #C5D2DB;
+$green: #3E6B85;
+
+body {
+    background-color: $grey;
+}
+
 a {
     text-decoration: none;
-    color: #3E6B85;
+    color: $green;
 
-    &:hover { color: none; }
+    &:hover { color: darken($green,10%); }
     &:visited { color: none; }
 }
 
 #header {
-    background-color: #F4921E;
-    margin: -1.6% -0.6% 0.6% -0.6%;
+    background-color: $yellow;
+    margin-bottom: 0.6%;
     padding: 0% 10px 2% 10px;
 }
 
-#wrapper {
-    margin: auto;
-    background-color: #FFFFFF;
-    width: 95%;
-}
-
-#container {
-    background-color: #858585;
-    float: left;
-    width: 79.5%;
+#article {
+    background-color: $green;
     margin-bottom: 0.6%;
     border-radius: 10px;
 
     a {
-        margin: 1%;
+        margin: 0.5%;
     }
 }
 
 .post {
-    background-color: #C5D2DB;
+    background-color: $blue;
     border-radius: 10px;
-    margin: 1%;
-    padding: 0.5%;
-
-    h3 {
-        margin: 1%;
-    }
+    margin: 0.1% 1%;
 
     .meta {
         margin: 0.5%;
@@ -55,9 +54,8 @@ a {
 }
 
 .post_content {
-    background-color: #3E6B85;
+    background-color: $white;
     border-radius: 10px;
-    margin: 1%;
 
     p {
         margin: 0.5%;
@@ -66,21 +64,21 @@ a {
     }
 }
 
-#sidebar {
+.sidebar {
     background-color: #858585;
-    float: right;
-    width: 20.5%;
+    margin: 0.6%;
     border-radius: 10px;
 }
 
-#footer {
+footer {
     background-color: #F4921E;
     clear: both;
-    margin: 2% -0.6% -0.6% -0.6%;
+    margin-top: 0.6%;
     padding-top: 1%;
 
     hr{
-        margin: 0.5% 0% 1% 0%;
+        margin-top: 0.5%;
+        margin-bottom: 1%;
     }
 
     span {

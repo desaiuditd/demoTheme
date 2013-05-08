@@ -7,10 +7,12 @@
  */
 ?>
 
-<div id="footer">
+</div>  <!--wrapper end-->
+
+<footer>
     <hr>
     <span>Copyright &#169; <?php bloginfo('name'); ?></span>
-</div>
+</footer>
 
 <?php wp_footer(); ?>
 

@@ -5,65 +5,389 @@ Version: 1.0
 Author: Udit Desai
 
 */
+/* Import compass reset module */
+/* Import reset module */
+/* Define some variables */
+/* Flexible image */
+/* line 35, sass/partials/_grid.scss */
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+/* line 40, sass/partials/_grid.scss */
+.container {
+  padding: 0 15px;
+  position: relative;
+  *zoom: 1;
+}
+/* line 38, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 48, sass/partials/_grid.scss */
+.row {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  max-width: 978px;
+  *zoom: 1;
+}
+/* line 38, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 61, sass/partials/_grid.scss */
+[class*="col"] {
+  float: left;
+  display: inline;
+  min-height: 1px;
+  position: relative;
+  margin-left: -1.3913%;
+}
+/* line 69, sass/partials/_grid.scss */
+[class*="col"]:first-child {
+  margin-left: 0;
+}
+
+/* --- Column Width --- */
+/* We can do iteration in sass just like we do in javascript or php */
+/* line 77, sass/partials/_grid.scss */
+.col1 {
+  width: 5.5%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col2 {
+  width: 9.6087%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col3 {
+  width: 13.71739%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col4 {
+  width: 17.82609%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col5 {
+  width: 21.93478%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col6 {
+  width: 26.04348%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col7 {
+  width: 30.15217%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col8 {
+  width: 34.26087%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col9 {
+  width: 38.36957%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col10 {
+  width: 42.47826%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col11 {
+  width: 46.58696%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col12 {
+  width: 50.69565%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col13 {
+  width: 54.80435%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col14 {
+  width: 58.91304%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col15 {
+  width: 63.02174%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col16 {
+  width: 67.13043%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col17 {
+  width: 71.23913%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col18 {
+  width: 75.34783%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col19 {
+  width: 79.45652%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col20 {
+  width: 83.56522%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col21 {
+  width: 87.67391%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col22 {
+  width: 91.78261%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col23 {
+  width: 95.8913%;
+}
+
+/* line 77, sass/partials/_grid.scss */
+.col24 {
+  width: 100%;
+}
+
+/* -------offset------- */
+/* line 85, sass/partials/_grid.scss */
+.offset1 {
+  margin-left: 5.5% !important;
+}
+
+/* line 85, sass/partials/_grid.scss */
+.offset2 {
+  margin-left: 9.6087% !important;
+}
+
+/* line 85, sass/partials/_grid.scss */
+.offset3 {
+  margin-left: 13.71739% !important;
+}
+
+/* line 85, sass/partials/_grid.scss */
+.offset4 {
+  margin-left: 17.82609% !important;
+}
+
+/* line 85, sass/partials/_grid.scss */
+.offset5 {
+  margin-left: 21.93478% !important;
+}
+
+/* line 85, sass/partials/_grid.scss */
+.offset6 {
+  margin-left: 26.04348% !important;
+}
+
+/* line 85, sass/partials/_grid.scss */
+.offset7 {
+  margin-left: 30.15217% !important;
+}
+
+/* line 85, sass/partials/_grid.scss */
+.offset8 {
+  margin-left: 34.26087% !important;
+}
+
+/* line 85, sass/partials/_grid.scss */
+.offset9 {
+  margin-left: 38.36957% !important;
+}
+
+/* line 85, sass/partials/_grid.scss */
+.offset10 {
+  margin-left: 42.47826% !important;
+}
+
+/* line 85, sass/partials/_grid.scss */
+.offset11 {
+  margin-left: 46.58696% !important;
+}
+
+/* line 85, sass/partials/_grid.scss */
+.offset12 {
+  margin-left: 50.69565% !important;
+}
+
+/* line 85, sass/partials/_grid.scss */
+.offset13 {
+  margin-left: 54.80435% !important;
+}
+
+/* line 85, sass/partials/_grid.scss */
+.offset14 {
+  margin-left: 58.91304% !important;
+}
+
+/* line 85, sass/partials/_grid.scss */
+.offset15 {
+  margin-left: 63.02174% !important;
+}
+
+/* line 85, sass/partials/_grid.scss */
+.offset16 {
+  margin-left: 67.13043% !important;
+}
+
+/* line 85, sass/partials/_grid.scss */
+.offset17 {
+  margin-left: 71.23913% !important;
+}
+
+/* line 85, sass/partials/_grid.scss */
+.offset18 {
+  margin-left: 75.34783% !important;
+}
+
+/* line 85, sass/partials/_grid.scss */
+.offset19 {
+  margin-left: 79.45652% !important;
+}
+
+/* line 85, sass/partials/_grid.scss */
+.offset20 {
+  margin-left: 83.56522% !important;
+}
+
+/* line 85, sass/partials/_grid.scss */
+.offset21 {
+  margin-left: 87.67391% !important;
+}
+
+/* line 85, sass/partials/_grid.scss */
+.offset22 {
+  margin-left: 91.78261% !important;
+}
+
+/* line 85, sass/partials/_grid.scss */
+.offset23 {
+  margin-left: 95.8913% !important;
+}
+
+/*  #Mobile Phone
+================================================== */
+@media only screen and (max-width: 767px) {
+  /* line 95, sass/partials/_grid.scss */
+  .row {
+    max-width: 767px;
+  }
+  /* line 97, sass/partials/_grid.scss */
+  .row [class*="col"] {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+/* line 17, sass/style.scss */
+body {
+  background-color: #858585;
+}
+
+/* line 21, sass/style.scss */
 a {
   text-decoration: none;
-  color: #3E6B85; }
-  a:hover {
-    color: none; }
-  a:visited {
-    color: none; }
+  color: #3e6b85;
+}
+/* line 25, sass/style.scss */
+a:hover {
+  color: #2e4f62;
+}
+/* line 26, sass/style.scss */
+a:visited {
+  color: none;
+}
 
+/* line 29, sass/style.scss */
 #header {
-  background-color: #F4921E;
-  margin: -1.6% -0.6% 0.6% -0.6%;
-  padding: 0% 10px 2% 10px; }
-
-#wrapper {
-  margin: auto;
-  background-color: #FFFFFF;
-  width: 95%; }
-
-#container {
-  background-color: #858585;
-  float: left;
-  width: 79.5%;
+  background-color: #f4921e;
   margin-bottom: 0.6%;
-  border-radius: 10px; }
-  #container a {
-    margin: 1%; }
+  padding: 0% 10px 2% 10px;
+}
 
+/* line 35, sass/style.scss */
+#article {
+  background-color: #3e6b85;
+  margin-bottom: 0.6%;
+  border-radius: 10px;
+}
+/* line 40, sass/style.scss */
+#article a {
+  margin: 0.5%;
+}
+
+/* line 45, sass/style.scss */
 .post {
-  background-color: #C5D2DB;
+  background-color: #c5d2db;
   border-radius: 10px;
-  margin: 1%;
-  padding: 0.5%; }
-  .post h3 {
-    margin: 1%; }
-  .post .meta {
-    margin: 0.5%;
-    padding: 0.5%; }
+  margin: 0.1% 1%;
+}
+/* line 50, sass/style.scss */
+.post .meta {
+  margin: 0.5%;
+  padding: 0.5%;
+}
 
+/* line 56, sass/style.scss */
 .post_content {
-  background-color: #3E6B85;
+  background-color: white;
   border-radius: 10px;
-  margin: 1%; }
-  .post_content p {
-    margin: 0.5%;
-    padding: 0.5%;
-    min-height: 100px; }
+}
+/* line 60, sass/style.scss */
+.post_content p {
+  margin: 0.5%;
+  padding: 0.5%;
+  min-height: 100px;
+}
 
-#sidebar {
+/* line 67, sass/style.scss */
+.sidebar {
   background-color: #858585;
-  float: right;
-  width: 20.5%;
-  border-radius: 10px; }
+  margin: 0.6%;
+  border-radius: 10px;
+}
 
-#footer {
+/* line 73, sass/style.scss */
+footer {
   background-color: #F4921E;
   clear: both;
-  margin: 2% -0.6% -0.6% -0.6%;
-  padding-top: 1%; }
-  #footer hr {
-    margin: 0.5% 0% 1% 0%; }
-  #footer span {
-    margin-left: 10px; }
+  margin-top: 0.6%;
+  padding-top: 1%;
+}
+/* line 79, sass/style.scss */
+footer hr {
+  margin-top: 0.5%;
+  margin-bottom: 1%;
+}
+/* line 84, sass/style.scss */
+footer span {
+  margin-left: 10px;
+}

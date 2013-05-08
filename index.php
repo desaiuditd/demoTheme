@@ -8,11 +8,12 @@
     get_header();
 ?>
 
-<div id="container">
+<div class="container row">
+<div id="article" class="col18">
 
     <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
-        <div class="post">
+        <div class="post container">
             <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 
             <div class="post_content">
@@ -49,9 +50,12 @@
         <h4>Nothing Found</h4>
     <?php endif; ?>
 
-</div>  <!--container end-->
-</div>  <!--wrapper end-->
+</div>  <!--article end-->
 
-<?php get_sidebar(); ?>
-    
+<div class="sidebar col5">
+    <?php get_sidebar(); ?>
+</div>
+
+</div>  <!-- container end -->
+
 <?php get_footer(); ?>
