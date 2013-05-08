@@ -40,10 +40,9 @@
 
     <?php endwhile; ?>
 
-    <span>
-        <?php next_posts_link('Older Posts'); ?>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <?php previous_posts_link('Newer Posts'); ?>
+    <span class="offset8">
+        <span><?php next_posts_link('Older Posts'); ?></span>
+        <span class="offset1"><?php previous_posts_link('Newer Posts'); ?></span>
     </span>
 
     <?php else : ?>

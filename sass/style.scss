@@ -6,6 +6,7 @@ Author: Udit Desai
 
 */
 
+@import "compass/css3/border-radius";
 @import "partials/grid";
 
 $white: #FFFFFF;
@@ -13,6 +14,11 @@ $yellow: #F4921E;
 $grey: #858585;
 $blue: #C5D2DB;
 $green: #3E6B85;
+
+* {
+    padding: 0;
+    margin: 0;
+}
 
 body {
     background-color: $grey;
@@ -28,34 +34,39 @@ a {
 
 #header {
     background-color: $yellow;
-    margin-bottom: 0.6%;
+    margin-bottom: 2%;
     padding: 0% 10px 2% 10px;
 }
 
 #article {
     background-color: $green;
-    margin-bottom: 0.6%;
-    border-radius: 10px;
+    margin-bottom: 2%;
+    @include border-radius(10px);
 
     a {
-        margin: 0.5%;
+        color: $blue;
+        &:hover { color: darken($blue,10%); }
     }
 }
 
 .post {
     background-color: $blue;
-    border-radius: 10px;
-    margin: 0.1% 1%;
+    @include border-radius(10px);
+    margin: 1.5%;
 
     .meta {
         margin: 0.5%;
         padding: 0.5%;
     }
+    a {
+        color: $green !important;
+        &:hover { color: darken($green,10%)!important; }
+    }
 }
 
 .post_content {
     background-color: $white;
-    border-radius: 10px;
+    @include border-radius(10px);
 
     p {
         margin: 0.5%;
@@ -64,16 +75,21 @@ a {
     }
 }
 
+.comments {
+    background-color: $blue;
+    @include border-radius(10px);
+    margin: 0.1% 1%;
+}
+
 .sidebar {
     background-color: #858585;
-    margin: 0.6%;
+    margin: 2% 0.6%;
     border-radius: 10px;
 }
 
 footer {
     background-color: #F4921E;
     clear: both;
-    margin-top: 0.6%;
     padding-top: 1%;
 
     hr{

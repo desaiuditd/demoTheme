@@ -21,7 +21,7 @@ img {
   position: relative;
   *zoom: 1;
 }
-/* line 38, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .container:after {
   content: "";
   display: table;
@@ -36,7 +36,7 @@ img {
   max-width: 978px;
   *zoom: 1;
 }
-/* line 38, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .row:after {
   content: "";
   display: table;
@@ -307,87 +307,127 @@ img {
     margin-left: 0;
   }
 }
-/* line 17, sass/style.scss */
+/* line 18, sass/style.scss */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 23, sass/style.scss */
 body {
   background-color: #858585;
 }
 
-/* line 21, sass/style.scss */
+/* line 27, sass/style.scss */
 a {
   text-decoration: none;
   color: #3e6b85;
 }
-/* line 25, sass/style.scss */
+/* line 31, sass/style.scss */
 a:hover {
   color: #2e4f62;
 }
-/* line 26, sass/style.scss */
+/* line 32, sass/style.scss */
 a:visited {
   color: none;
 }
 
-/* line 29, sass/style.scss */
+/* line 35, sass/style.scss */
 #header {
   background-color: #f4921e;
-  margin-bottom: 0.6%;
+  margin-bottom: 2%;
   padding: 0% 10px 2% 10px;
 }
 
-/* line 35, sass/style.scss */
+/* line 41, sass/style.scss */
 #article {
   background-color: #3e6b85;
-  margin-bottom: 0.6%;
+  margin-bottom: 2%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 40, sass/style.scss */
+/* line 46, sass/style.scss */
 #article a {
-  margin: 0.5%;
+  color: #c5d2db;
+}
+/* line 48, sass/style.scss */
+#article a:hover {
+  color: #a6bac7;
 }
 
-/* line 45, sass/style.scss */
+/* line 52, sass/style.scss */
 .post {
   background-color: #c5d2db;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
   border-radius: 10px;
-  margin: 0.1% 1%;
+  margin: 1.5%;
 }
-/* line 50, sass/style.scss */
+/* line 57, sass/style.scss */
 .post .meta {
   margin: 0.5%;
   padding: 0.5%;
 }
+/* line 61, sass/style.scss */
+.post a {
+  color: #3e6b85 !important;
+}
+/* line 63, sass/style.scss */
+.post a:hover {
+  color: #2e4f62 !important;
+}
 
-/* line 56, sass/style.scss */
+/* line 67, sass/style.scss */
 .post_content {
   background-color: white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 60, sass/style.scss */
+/* line 71, sass/style.scss */
 .post_content p {
   margin: 0.5%;
   padding: 0.5%;
   min-height: 100px;
 }
 
-/* line 67, sass/style.scss */
+/* line 78, sass/style.scss */
+.comments {
+  background-color: #c5d2db;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  margin: 0.1% 1%;
+}
+
+/* line 84, sass/style.scss */
 .sidebar {
   background-color: #858585;
-  margin: 0.6%;
+  margin: 2% 0.6%;
   border-radius: 10px;
 }
 
-/* line 73, sass/style.scss */
+/* line 90, sass/style.scss */
 footer {
   background-color: #F4921E;
   clear: both;
-  margin-top: 0.6%;
   padding-top: 1%;
 }
-/* line 79, sass/style.scss */
+/* line 95, sass/style.scss */
 footer hr {
   margin-top: 0.5%;
   margin-bottom: 1%;
 }
-/* line 84, sass/style.scss */
+/* line 100, sass/style.scss */
 footer span {
   margin-left: 10px;
 }
